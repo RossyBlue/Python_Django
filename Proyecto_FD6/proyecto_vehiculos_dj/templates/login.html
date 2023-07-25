@@ -1,0 +1,19 @@
+{% include "menu.html" %} 
+{% block content %} 
+    {% load crispy_forms_tags %} 
+
+ 
+    <div class="container py-5 bg-opacity-25">
+        <h3>Login</h3>
+        <form method="POST">
+            {% csrf_token %}
+            {{ login_form|crispy }}
+            <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+        <p class="text-center">
+            Si ya tienes una cuenta, registrate en <a href="/vehiculo/registro">Registro</a>
+        </p>
+    </div>
+
+{% endblock %}
+ 

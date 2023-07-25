@@ -1,0 +1,27 @@
+/* color de fondo de la página */
+body {
+  background-color: rgb(243, 235, 125);
+  font-family: Copperplate, Papyrus, fantasy;
+  
+}
+  /* color del texto */
+h1, h3 {
+    color: #4d3ce9;
+    text-align: center;
+  }
+  
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+.container1 {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box;
+  }
+
